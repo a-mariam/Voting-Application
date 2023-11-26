@@ -1,2 +1,8 @@
-package com.example.votingapplication.exceptions;public class CandidateAlreadyExist {
+package com.example.votingapplication.exceptions;
+
+public class CandidateAlreadyExist extends EVoteException{
+
+    public CandidateAlreadyExist(String message) {
+        super(message);
+    }
 }
